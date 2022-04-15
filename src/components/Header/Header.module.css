@@ -1,0 +1,22 @@
+.header{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 25;
+    grid-row-end: 2;
+    background-color: #3f4257;
+    display: inline-grid;
+    grid-template-columns: 70px repeat(18, 1fr) 70px;
+}
+
+.logo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #ff5e3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.logo img{
+     width: 34px;
+     height: 34px;
+ }
+

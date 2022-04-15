@@ -1,0 +1,63 @@
+
+.topHeader {
+    height: 400px;
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.topHeaderThumb {
+    height: 300px;
+}
+
+.topHeaderThumb img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.profileSection {
+    height: 100px;
+    width: 100%;
+}
+
+.profileSection li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.profileSection a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #9a9fbf;
+}
+
+.profileSection a:hover{
+    color: #515365;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: inline-grid;
+    grid-template-columns: 1fr 150px 1fr;
+}
+
+.profileMenu {
+    display: flex;
+    flex-direction: row;
+    padding: 0 2rem;
+    margin: auto;
+    column-gap: 5rem;
+}
+
+.controlBlockButton {
+
+}
+
+.topHeaderAuthor {
+
+}

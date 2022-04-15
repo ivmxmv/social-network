@@ -1,0 +1,25 @@
+.createPostBox {
+    background-color: white;
+    padding: 2rem;
+    margin-top: 1rem;
+    border: 2px solid #f1f4f9;
+    border-radius: 5px;
+}
+
+.text {
+    width: auto;
+
+}
+
+.text textarea {
+    padding: 0;
+    height: 75px;
+    width: 100%;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    resize: none;
+}
+
+.buttons {
+
+}

@@ -1,0 +1,16 @@
+.msgBox {
+    display: grid;
+    grid-template-columns: 40px auto 40px;
+    grid-column-gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.userImage {
+}
+
+.userImage img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}

@@ -1,0 +1,22 @@
+
+.textArea {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: white;
+    padding: 0;
+    height: 48px;
+    width: 100%;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    resize: none;
+}
+
+.sendMsgBox{
+    background-color: white;
+    padding: 10px 0;
+    border-top: 2px solid #ecf1f5;
+    border-bottom: 1px solid #ecf1f5;
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+}
+

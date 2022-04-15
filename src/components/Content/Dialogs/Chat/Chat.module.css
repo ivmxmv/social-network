@@ -1,0 +1,16 @@
+.chatPage {
+    display: grid;
+    grid-template-rows: 528px 72px;
+}
+
+.chatBox {
+    padding: 0 2rem;
+    margin: 0;
+    overflow: auto;
+}
+
+.sendMsgBox {
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}

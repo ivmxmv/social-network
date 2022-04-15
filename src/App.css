@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+
+.wrapper{
+    height: 100vh;
+    background-color: #ecf1f5;
+    display: grid;
+    grid-template-columns: 70px repeat(18, 1fr) 70px;
+    grid-template-rows: 70px auto;
+}
+
+

@@ -1,0 +1,32 @@
+.page {
+    grid-column-start: 2;
+    grid-column-end: 20;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 300px 600px;
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    background-color: white;
+    border-color: #ecf1f5;
+}
+
+.dialogBox {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.chatBox {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 1px;
+
+}
+

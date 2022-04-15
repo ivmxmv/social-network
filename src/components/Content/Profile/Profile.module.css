@@ -1,0 +1,28 @@
+.content{
+    grid-column-start: 2;
+    grid-column-end: 20;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: inherit;
+    padding: 0 15rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    grid-column-gap: 2rem;
+
+    overflow: auto;
+}
+
+.profile{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.posts{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}

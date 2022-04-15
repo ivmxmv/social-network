@@ -1,0 +1,23 @@
+.sidebar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #fafafb;
+}
+
+.itemDiv{
+
+}
+.itemDiv:hover{
+    background-color:  #ecf1f5;
+
+}
+
+
+.item{
+    color: #9fa3c2;
+    text-decoration: none;
+}
+
+.active {color: #ff5e3a;text-decoration: none;}
